@@ -2,7 +2,7 @@
 
 This repository contains the input datasets and configuration summaries required to reproduce the analyses presented in the manuscript:
 
-**"Techno-Economic Assessment of EV Charging Infrastructure using HOMER Grid v1.114 (Evaluation Edition)"**, submitted to *Energy Reports (Q1 Journal)*, 2025.
+**"Decarbonizing Tourism Hubs in Bangladesh: A PV/Wind/Grid Hybrid System for EV Charging and Hospitality in Cox’s Bazar" using HOMER Grid v1.114 (Evaluation Edition)**, submitted to *Energy Reports (Q1 Journal)*, 2025.
 
 ---
 
