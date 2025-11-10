@@ -10,23 +10,27 @@ This repository contains the input datasets and configuration summaries required
 
 | File | Description |
 |------|--------------|
-| **HOMER_input_summary.pdf** | Consolidated input data and model configuration for reproducibility. Includes HOMER Grid system setup, EVCS load profiles, tariff structures, and component parameters. Exported manually from the HOMER Grid v1.114 (Evaluation Edition). Optimization or economic results are **not included**. |
+| **HOMER_input_summary.pdf** | Consolidated input data and model configuration for reproducibility. Includes HOMER Grid system setup, EVCS load profiles, tariff structures, and component parameters. Exported manually from the HOMER Grid v1.114 (Evaluation Edition). |
+| **Data_Output_Availability_Supplement.pdf** | Supplementary file containing direct HOMER Grid output screenshots (optimization results, renewable penetration, CO₂ emissions, and cost summaries) that support all numerical results reported in the manuscript. |
 | **LICENSE.txt** | Creative Commons Attribution 4.0 International License (CC BY 4.0). Allows sharing and reuse with appropriate credit. |
 
 ---
 
 ## 🧰 Software & Version
 - **HOMER Grid v1.114 (Evaluation Edition)**  
-- **Microsoft Excel 2021** – Used for input tabulation and figure preparation  
+- **Microsoft Excel 2021** – Used for figure preparation and data formatting (no independent post-processing scripts distributed)
 
 ---
 
 ## 🔍 Data and Code Availability Statement
 
-All model input information, EVCS load profiles, and tariff schedules are documented in the file *HOMER_input_summary.pdf* for transparency and reproducibility.  
-Due to restrictions in the trial version of HOMER Grid, simulation result exports are not included; however, all parameters necessary to reproduce the study configuration are provided.
+All model input data, EVCS load profiles, and tariff schedules are provided in *HOMER_input_summary.pdf*.  
+Representative simulation outputs are included in *Data_Output_Availability_Supplement.pdf*, which documents the exact HOMER result screens corresponding to the tables and figures in the paper.
 
-All shared content is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+To maintain data integrity and prevent unauthorized manipulation, no editable post-processing scripts are released.  
+All numerical results can be reproduced directly by re-running the provided HOMER model configuration using the parameters contained in the input summary.
+
+All materials in this repository are distributed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
@@ -40,4 +44,5 @@ If you reference this dataset or configuration, please cite as:
 ---
 
 © 2025 AZ-ALIF. Licensed under the Creative Commons Attribution 4.0 International License.
+
 
